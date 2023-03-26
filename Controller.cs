@@ -10,7 +10,7 @@ namespace ShoppingSystem
     {
         public string ProcessProductCommand(List<string> args)
         {
-            //TODO: Add some logic here …
+            //TODO: Add some logic here .
         }
 
         public string ProcessServiceCommand(List<string> args)
