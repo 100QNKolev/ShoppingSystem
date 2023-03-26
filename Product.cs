@@ -17,7 +17,7 @@ namespace ShoppingSystem
             set { 
                 if (value.Length < 3 || value.Length > 30) 
                 {
-                    throw new Exception("Name must be between 3 and 30 characters");
+                    throw new ArgumentException("Name must be between 3 and 30 characters");
                 }
                 name = value;
             }
@@ -29,7 +29,7 @@ namespace ShoppingSystem
             set { 
                 if (price < 0) 
                 {
-                    throw new Exception("Price must be positive integer");
+                    throw new ArgumentException("Price must be positive integer");
                 }
             price = value;
             }
@@ -44,7 +44,7 @@ namespace ShoppingSystem
         public override string ToString()
         {
             return base.ToString();
-            //TODO: create ToString method
+            //TODO: create ToString function
         }
     }
 }
