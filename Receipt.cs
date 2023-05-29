@@ -27,6 +27,7 @@ namespace ShoppingSystem
         public Receipt(string customerName)
         {
             this.CustomerName = customerName;
+            this.products = new List<Product>();
         }
 
         public void AddProduct(Product product)
@@ -42,11 +43,12 @@ namespace ShoppingSystem
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Receipt of ${this.customerName}");
-            sb.AppendLine($"Total Price: ${this.products.Sum(x => x.Price)}");
+            sb.AppendLine($"Receipt of {this.customerName}");
+            sb.AppendLine($"Total Price: {Math.Round(this.products.Sum(x => x.Price), 2)}");
 
             foreach (var item in this.products)
             {
+                sb.AppendLine("Products: ");
                 sb.AppendLine(item.ToString());
             }
 

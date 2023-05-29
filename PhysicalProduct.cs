@@ -31,7 +31,7 @@ namespace ShoppingSystem
 
         public override string ToString()
         {
-            return $"Name: ${this.Name}\nPrice: ${this.Price}\nWeight: ${this.Weight}";
+            return $"Name: {this.Name}\nPrice: ${this.Price}\nWeight: {this.Weight}";
         }
     }
 }

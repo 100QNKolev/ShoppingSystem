@@ -27,7 +27,7 @@ namespace ShoppingSystem
             PhysicalProduct newProduct = new PhysicalProduct(name, price, weight);
             this.products.Add(newProduct);
 
-            return $"The current customer has bought ${newProduct.Name}.";
+            return $"The current customer has bought {newProduct.Name}.";
         }
 
         public string ProcessServiceCommand(List<string> args)
@@ -40,7 +40,7 @@ namespace ShoppingSystem
             ServiceProduct newProduct = new ServiceProduct(name, price, time);
             this.products.Add(newProduct);
 
-            return $"The current customer has applied for ${newProduct.Name} service.";
+            return $"The current customer has applied for {newProduct.Name} service.";
         }
 
         public string ProcessCheckoutCommand(List<string> args)
@@ -59,7 +59,7 @@ namespace ShoppingSystem
 
             this.products.Clear();
 
-            return $"Customer checked out for a total of ${totalSum : D2}.";
+            return $"Customer checked out for a total of {Math.Round(totalSum, 2)}.";
         }
 
         public string ProcessInfoCommand(List<string> args)
@@ -74,8 +74,8 @@ namespace ShoppingSystem
                 this.products.ForEach(x => totalSum += x.Price);
 
                 sb.AppendLine("Current customer has:");
-                sb.AppendLine($"Products: ${this.products.Count : D2}");
-                sb.AppendLine($"Total Bill: ${totalSum : D2}");
+                sb.AppendLine($"Products: {this.products.Count}");
+                sb.AppendLine($"Total Bill: {Math.Round(totalSum, 2)}");
 
             }
             else
@@ -96,7 +96,7 @@ namespace ShoppingSystem
         }
         public string ProcessEndCommand()
         {
-            return $"Total customers today: ${this.recipes.Count}";
+            return $"Total customers today: {this.recipes.Count}";
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.csproj.AssemblyReference.cache
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.AssemblyInfoInputs.cache
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.AssemblyInfo.cs
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.csproj.CoreCompileInputs.cache
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\bin\Debug\net6.0\ShoppingSystem.exe
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\bin\Debug\net6.0\ShoppingSystem.deps.json
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\bin\Debug\net6.0\ShoppingSystem.runtimeconfig.json
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\bin\Debug\net6.0\ShoppingSystem.dll
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\bin\Debug\net6.0\ref\ShoppingSystem.dll
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\bin\Debug\net6.0\ShoppingSystem.pdb
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.dll
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ref\ShoppingSystem.dll
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.pdb
+C:\Users\jakea\source\ShoppingSystem\ShoppingSystem\obj\Debug\net6.0\ShoppingSystem.genruntimeconfig.cache
