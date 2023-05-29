@@ -43,8 +43,7 @@ namespace ShoppingSystem
 
         public override string ToString()
         {
-            return base.ToString();
-            //TODO: create ToString function
+            return $"Name: ${this.Name}\nPrice: ${this.Price}";
         }
     }
 }

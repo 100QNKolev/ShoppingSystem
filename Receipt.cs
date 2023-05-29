@@ -29,15 +29,28 @@ namespace ShoppingSystem
             this.CustomerName = customerName;
         }
 
-        public void AddProduct(Product product) 
+        public void AddProduct(Product product)
         {
-          //TODO: create AddProduct function
+            this.products.Add(product);
+            Console.WriteLine(() => {
+                this.products.Sum(x => x.Price);
+            }
+            );
         }
 
         public override string ToString()
         {
-            return base.ToString();
-            //TODO: create ToString function
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Receipt of ${this.customerName}");
+            sb.AppendLine($"Total Price: ${this.products.Sum(x => x.Price)}");
+
+            foreach (var item in this.products)
+            {
+                sb.AppendLine(item.ToString());
+            }
+
+            return sb.ToString();
         }
     }
 }
